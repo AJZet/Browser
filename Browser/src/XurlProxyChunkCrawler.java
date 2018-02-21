@@ -91,7 +91,7 @@ public class XurlProxyChunkCrawler{
             	  		chunked = true;
             }
             //if the status code is OK -> download the file
-            String page = "";
+            //String page = "";
             int carCount = 0;
 
             if (status.matches("2.....")) {
