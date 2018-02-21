@@ -47,6 +47,7 @@ public class XurlProxyChunkCrawler{
 			PrintStream out = new PrintStream(mySocket.getOutputStream());
 			//input stream reads input from the server
 			BufferedReader in = new BufferedReader(new InputStreamReader(mySocket.getInputStream()));
+			
 			//request without proxy
 			if (args.length == 1)
 			{
